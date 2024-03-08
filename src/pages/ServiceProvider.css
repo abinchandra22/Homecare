@@ -1,0 +1,17 @@
+.client{
+    /* background-image: url('https://www.slidekit.com/wp-content/uploads/2023/01/Multi-Color-Slides-for-Background.jpg');
+    width: 100%;
+    background-repeat: no-repeat; */
+        background-image:linear-gradient(rgba(60,123,141,0.7),rgb(0, 221, 255)), url('https://static01.nyt.com/images/2020/02/20/upshot/20up-doc1/20up-doc1-superJumbo.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.register{
+    background-image: linear-gradient(to right, rgb(60, 123, 141) , rgb(0, 221, 255));
+    height: 850px;
+    width: 650px;
+    border-radius: 50px;
+}

@@ -1,0 +1,26 @@
+.bg-img{
+    background-image: url('https://img.freepik.com/premium-photo/nurse-takes-care-old-patient_256588-827.jpg');
+    height: 85vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.cont{
+    margin-top: 150px;
+}
+.abt{
+    color: rgb(17, 17, 92);
+}
+.skill{
+    padding-left: 50px;
+   
+}
+.skill2{
+    color: gray;
+}
+.log{
+    height: 80px;
+    width: 90px;
+    color: rgb(0, 221, 255);
+}

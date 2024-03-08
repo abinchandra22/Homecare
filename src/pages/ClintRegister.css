@@ -1,0 +1,12 @@
+.client_div{
+    background-image: url('https://www.slidekit.com/wp-content/uploads/2023/01/Multi-Color-Slides-for-Background.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.register_div{
+    background-image: linear-gradient(to right, rgb(60, 123, 141) , rgb(0, 221, 255));
+    height: 600px;
+    width: 650px;
+    border-radius: 50px;
+}
