@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import { userRegAPI } from '../servises/allAPI'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function ClintRegister() {
   const [userInputData, setUserInputData] = useState({
@@ -32,10 +32,10 @@ function ClintRegister() {
           setUserInputData({
             username: "", email: "", password: "", number: "", address: ""
           })
- // navigate to login page
- setTimeout(() => {
-  navigate("/clint-dashboard")
-}, 2000)
+          // navigate to login page
+          setTimeout(() => {
+            navigate("/clint-login")
+          }, 2000)
         } else {
           toast.error(result.response.data)
 
@@ -64,10 +64,13 @@ function ClintRegister() {
               <input type="tel" placeholder='Phone Number' style={{ borderRadius: '50px' }} className='form-control mb-3 w-50 mt-2' value={userInputData.number} onChange={(e) => setUserInputData({ ...userInputData, number: e.target.value })} />
               <textarea className='rounded form-control w-50' style={{ borderRadius: '50px' }} placeholder='Address' cols="5" rows="5" value={userInputData.address} onChange={(e) => setUserInputData({ ...userInputData, address: e.target.value })}></textarea>
               <button onClick={handleRegister} className='w-50 mt-3 btn btn-danger' style={{ borderRadius: '50px' }}>REGISTER</button>
+              <p className='mt-3'>Allready have an Account? Click here to <Link to={'/clint-login'} className='text-danger'>Login</Link></p>
+
             </div>
+
           </Col>
         </Row>
-        <ToastContainer autoClose={3000} theme='colored'></ToastContainer>
+        <ToastContainer autoClose={2000} position="top-center" theme='colored'></ToastContainer>
 
       </div>
       <Footer></Footer>

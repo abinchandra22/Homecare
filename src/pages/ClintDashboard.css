@@ -1,0 +1,31 @@
+.bgimg {
+    background-image: url('https://www.happymindz.in/images/slider-3.jpg');
+    height: 85vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.prov {
+    color: rgb(96, 13, 174);
+}
+
+.paragraph {
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.cardtext {
+    color: gray;
+}
+
+.bgimgser {
+    background-image: url('https://thumbs.dreamstime.com/b/homecare-concept-doctor-thumbs-up-homecare-concept-doctor-thumbs-up-110071840.jpg');
+    height: 85vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

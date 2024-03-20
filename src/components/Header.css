@@ -1,8 +1,9 @@
-.head{
-    background-color:  rgb(0, 221, 255);
-   
+.head {
+    background-color: rgb(0, 221, 255);
+
 }
-.header{
+
+.header {
     /* position: fixed; */
     width: 100%;
 }
