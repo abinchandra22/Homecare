@@ -9,6 +9,8 @@ import Respite from '../assets/Respite.png'
 import Physiotherapy from '../assets/Physiotherapy.png'
 import spk from '../assets/spk.png'
 import Counselling from '../assets/Counselling.png'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 
 

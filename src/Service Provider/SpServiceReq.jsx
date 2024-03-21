@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../Client/Components/Header'
-import Footer from '../Client/Components/Footer'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 import { Container } from 'react-bootstrap'
 
 function SpServiceReq() {

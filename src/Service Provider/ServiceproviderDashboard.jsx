@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../Client/Components/Header'
-import Footer from '../Client/Components/Footer'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';

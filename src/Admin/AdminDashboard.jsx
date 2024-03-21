@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../Client/Components/Footer';
+import Footer from '../components/Footer';
 import AdminHeader from './AdminHeader';
 import { Col, Container, Row } from 'react-bootstrap';
 

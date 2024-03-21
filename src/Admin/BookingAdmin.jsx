@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import Footer from '../Client/Components/Footer'
+import Footer from '../components/Footer'
 import AdminHeader from './AdminHeader'
 
 function BookingAdmin() {
