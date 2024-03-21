@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '../components/Footer';
-import AdminHeader from '../components/AdminHeader';
+import Footer from '../Client/Components/Footer';
+import AdminHeader from './AdminHeader';
 import { Col, Container, Row } from 'react-bootstrap';
 
 function AdminDashboard() {

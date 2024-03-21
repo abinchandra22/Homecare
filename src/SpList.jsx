@@ -1,6 +1,6 @@
 import React from 'react'
-import AdminHeader from './components/AdminHeader'
-import Footer from './components/Footer'
+import AdminHeader from './Admin/AdminHeader'
+import Footer from './Client/Components/Footer'
 import { Container } from 'react-bootstrap'
 
 function SpList() {

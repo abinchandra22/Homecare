@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../components/Header'
 import './Home.css'
 import { Link } from 'react-router-dom'
 import abtus from '../assets/abtus.jpg'
@@ -10,7 +9,8 @@ import Respite from '../assets/Respite.png'
 import Physiotherapy from '../assets/Physiotherapy.png'
 import spk from '../assets/spk.png'
 import Counselling from '../assets/Counselling.png'
-import Footer from '../components/Footer'
+
+
 
 function Home() {
   return (

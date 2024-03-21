@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
 import { Col, Row } from 'react-bootstrap'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

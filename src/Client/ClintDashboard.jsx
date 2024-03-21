@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import './ClintDashboard.css'
-import Header from '../components/Header'
+import Header from './Components/Header'
 import { Col, Row } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link, useNavigate } from 'react-router-dom';
-import Footer from '../components/Footer';
+import Footer from './Components/Footer';
 // import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 function ClintDashboard() {

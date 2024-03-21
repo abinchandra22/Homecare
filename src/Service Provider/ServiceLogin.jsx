@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/Header'
+import Header from '../Client/Components/Header'
 import { Col, Row } from 'react-bootstrap'
 import './ServiceProvider.css'
 import { ToastContainer, toast } from 'react-toastify';

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import './ClintRegister.css'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
 import { userRegAPI } from '../servises/allAPI'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import Footer from '../components/Footer'
-import AdminHeader from '../components/AdminHeader'
+import Footer from '../Client/Components/Footer'
+import AdminHeader from './AdminHeader'
 
 function LeaverequestAdmin() {
     return (

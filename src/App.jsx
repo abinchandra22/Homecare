@@ -1,20 +1,20 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './pages/Home';
+import Home from './Client/Home';
 import Login from './pages/Login';
-import ClintRegister from './pages/ClintRegister';
-import AdminDashboard from './pages/AdminDashboard'
+import ClintRegister from './Client/ClintRegister';
+import AdminDashboard from './Admin/AdminDashboard'
 import { Navigate, Route, Routes } from 'react-router-dom';
-import ServiceProvider from './pages/ServiceProvider';
-import AdminLogin from './pages/AdminLogin';
-import BookingAdmin from './pages/BookingAdmin';
-import LeaverequestAdmin from './pages/LeaverequestAdmin';
-import ClintDashboard from './pages/ClintDashboard';
-import ClintLogin from './pages/ClintLogin';
-import Clinttreatment from './pages/Clinttreatment';
-import ServiceproviderDashboard from './pages/ServiceproviderDashboard';
-import ServiceLogin from './pages/ServiceLogin';
-import SpServiceReq from './pages/SpServiceReq';
+import ServiceProvider from './Service Provider/ServiceProvider';
+import AdminLogin from './Admin/AdminLogin';
+import BookingAdmin from './Admin/BookingAdmin';
+import LeaverequestAdmin from './Admin/LeaverequestAdmin';
+import ClintDashboard from './Client/ClintDashboard';
+import ClintLogin from './Client/ClintLogin';
+import Clinttreatment from './Client/Clinttreatment';
+import ServiceproviderDashboard from './Service Provider/ServiceproviderDashboard';
+import ServiceLogin from './Service Provider/ServiceLogin';
+import SpServiceReq from './Service Provider/SpServiceReq';
 import SpList from './SpList';
 
 function App() {
